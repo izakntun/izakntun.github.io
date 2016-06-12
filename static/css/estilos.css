@@ -1,0 +1,201 @@
+/*Utilidades*/
+
+.u-title
+{
+    color: #00CCFF;
+    border-bottom: 2px dashed #00CCFF;
+    font-weight: 300;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+.u-image
+{
+    width: 200px;
+    height: 250px;
+}
+/*MainMenu*/
+
+.MainMenu
+{
+    background: #1e1e1e;
+    text-align: center;
+    height: 3.75em;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.MainMenu-item
+{
+    display: inline-block;
+}
+.MainMenu-list
+{
+    margin: 0;
+    padding: 0;
+}
+.MainMenu-link
+{
+    color: #00DBFF;
+    text-decoration: none;
+    line-height: 3.75em;
+    margin-right: 1.5em;
+}
+.MainMenu-link:hover
+{
+    color: #FFFFFF;
+}
+/*Header*/
+
+.Header
+{
+    margin-top: 3.75em;
+    background-image: url(../images/1448898081.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 1.2em 0;
+}
+.Header-image
+{
+    width: 170px;
+    height: 170px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.Header-name
+{
+    color: #FFFFFF;
+}
+.Header-link
+{
+    font-size: 2.2em;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.Header-link:hover
+{
+    color: #000000;
+}
+.Header-name
+{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 0;
+}
+.Header-imageContainer
+{
+    margin: 0;
+}
+
+/*Profile*/
+
+.Profile
+{
+    text-align: center;
+}
+.Profile-link
+{
+    text-decoration: none;
+    background: orange;
+    color: #FFFFFF;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    margin-right: 0.5em;
+}
+.Profile-link:hover
+{
+    color: #000000;
+}
+.Profile-description
+{
+    font-size: 1.8em;
+    color: #515151;
+    font-style: italic;
+}
+
+/*Work*/
+.Work
+{
+    margin-top: 2em;
+    text-align: center;;
+}
+.Work-item
+{
+    display: inline-block;
+    margin-right: 1.8em;
+    margin-bottom: 1.8em;
+}
+.Work-imageContainer
+{
+    margin: 0;
+}
+.Work-image
+{
+    width: 250px;
+    height: 250px;
+}
+.Work-description
+{
+    font-size: 1.1em;
+    color: #515151;
+    font-style: italic;
+}
+
+/*Footer*/
+.Footer
+{
+    background-image: url(../images/web-design-indelible-ink-body-small.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2em 0;
+    text-align: center;
+}
+.Footer-form
+{
+    text-align: center;
+    display: inline-block;
+}
+.Footer-left
+{
+    display: inline-block;
+    width: 32em;
+    text-align: center;
+    vertical-align: top;
+}
+.Footer-title
+{
+    color: #515151;
+}
+.Footer-formInput,
+.Footer-textarea
+{
+    background: #FFFFFF;
+    border: none;
+    display: block;;
+    border-radius: 2em;
+    padding:.5em;
+    margin: 0 auto 1em;
+}
+.Footer-formInput
+{
+    display: inline-block;
+    margin-top: 1em;
+}
+.Footer-textarea
+{
+    resize: none;
+    width: 27em;
+    height: 10em;
+}
+.Footer-button
+{
+    background: orange;
+    color: #FFFFFF;
+    border-radius: 1em;
+    border:none;
+    padding: .5em 1em;
+}

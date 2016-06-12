@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Portafolio.la</title>
+        <meta charset="UTF-8"/>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../static/css/normalize.css">
+        <link rel="stylesheet" href="../static/css/estilos.css">
+    </head>
+    <body>
+        <header id="yo" class="Header">
+            <nav class="MainMenu">
+                <ul class="MainMenu-list">
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#yo">Yo</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#perfil">Perfil</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#trabajo">Trabajo</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <figure class="Header-imageContainer">
+                <img src="../static/images/avatar.jpg" alt="Imagen personal" class="Header-image"/>
+                <figcaption class="Header-imageDescription">
+                    <a class="Header-link" href="http://twitter.com/izakntun/" target="_black">@IZAKNTUN</a>
+                </figcaption>
+            </figure>
+            <p class="Header-name" >Isaac Cantún</p>
+        </header>
+        <section id="perfil" class="Profile">
+            <div class="u-containerDefault">
+                <h2 class="Profile-title u-title">Mi perfil</h2>
+                <p class="Profile-description">
+                    Hola! si hasta aqui puedes ver mi portafolio y contactarme.
+                </p>
+                <a class="Profile-link is-link" href="http://twitter.com/izakntun/" target="_blank">Isaac Cantún on Twitter</a>
+                <a class="Profile-link is-twitter" href="http://facebook.com/izakantun/" target="_blank">Isaac Cantún on Facebook</a>
+                <a class="Profile-link is-facebook" href="http://github.com/izakntun/" target="_blank">Isaac Cantún on Github</a>
+            </div>
+        </section>
+        <section id="trabajo" class="Work">
+            <div class="u-containerDefault">
+                <h2 class="Work-title u-title">Mi trabajo</h2>
+            </div>
+
+            <article class="Work-item">
+                <figure class="Work-imageContainer">
+                    <img class="Work-image" src="../static/images/css3_logo.png" alt="Es la descripcion de mi imagen">
+                    <figcaption class="Work-description">Hojas de estilos con CSS3</figcaption>
+                </figure>
+            </article>
+            <article class="Work-item">
+                <figure class="Work-imageContainer">
+                    <img class="Work-image" src="../static/images/HTML5_logo_and_wordmark.svg.png" alt="Es la descripcion de mi imagen">
+                    <figcaption class="Work-description">La web semántica con HTML5</figcaption>
+                </figure>
+            </article>
+            <article class="Work-item">
+                <figure class="Work-imageContainer">
+                    <img class="Work-image" src="../static/images/Badge_js-strict.svg.png" alt="Es la descripcion de mi imagen">
+                    <figcaption class="Work-description">Páginas web interactivas con Javascript</figcaption>
+                </figure>
+            </article>
+            <article class="Work-item">
+                <figure class="Work-imageContainer">
+                    <img class="Work-image" src="../static/images/php7-transparent.png" alt="Es la descripcion de mi imagen">
+                    <figcaption class="Work-description">PHP el lenguaje detras de WordPress</figcaption>
+                </figure>
+            </article>
+            <article class="Work-item">
+                <figure class="Work-imageContainer">
+                    <img class="Work-image" src="../static/images/wordpress_mysql_backup.png" alt="Es la descripcion de mi imagen">
+                    <figcaption class="Work-description">Bases de datos con MySQL</figcaption>
+                </figure>
+            </article>
+        </section>
+        <footer id="contacto" class="Footer">
+            <div class="Footer-left">
+                <h3 class="Footer-title">Contacto</h3>
+                <p class="Footer-description">Si tienes una sugerencia o quieres trabajar conmigo ponte en contacto con este formulario</p>
+            </div>
+            <form class="Footer-form">
+                <input class="Footer-formInput"  type="text" placeholder="Nombre"/>
+                <input class="Footer-formInput" type="email" placeholder="E-mail"/>
+                <textarea class="Footer-textarea" placeholder="Comentario"></textarea>
+                <button type="submit" class="Footer-button"> Contactarme </button>
+            </form>
+        </footer>
+    </body>
+</html>
